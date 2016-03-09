@@ -1,0 +1,40 @@
+{
+  "name": "creative-dark-syntax",
+  "theme": "syntax",
+  "version": "1.1.0",
+  "description": "A CREATIVE syntax theme. best use for UI development",
+  "keywords": [
+    "syntax",
+    "theme",
+    "simple",
+    "material"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mehdi-Hp/atom-creative-dark-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "readme": "# Creative Dark - Syntax theme for atom\n#### Best choice for Front-End development.\nA Syntax theme for atom editor.\n\n- Recommended UI theme is [Atom Material UI](https://atom.io/themes/atom-material-ui)\n- Recommended Font family is [Ubutnu Mono](http://font.ubuntu.com/)  \n\nAlso you can install it with `apm install creative-dark-syntax`\n\n#### PHP\n\n![Atom Creative Theme](https://raw.githubusercontent.com/Mehdi-Hp/atom-creative-dark-syntax/master/php.png)  \n\n#### SASS\n\n![Atom Creative Theme](https://raw.githubusercontent.com/Mehdi-Hp/atom-creative-dark-syntax/master/sass.png)  \n\n#### JS\n\n![Atom Creative Theme](https://raw.githubusercontent.com/Mehdi-Hp/atom-creative-dark-syntax/master/js.png)  \n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Mehdi-Hp/atom-creative-dark-syntax/issues"
+  },
+  "homepage": "https://github.com/Mehdi-Hp/atom-creative-dark-syntax#readme",
+  "_id": "creative-dark-syntax@1.1.0",
+  "_shasum": "688f2b34cc3285fbeea6588d280a0210a4987e20",
+  "_resolved": "file:../d-116119-2786-8qqc20/package.tgz",
+  "_from": "../d-116119-2786-8qqc20/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

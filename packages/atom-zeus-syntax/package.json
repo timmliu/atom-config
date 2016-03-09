@@ -1,0 +1,40 @@
+{
+  "name": "atom-zeus-syntax",
+  "theme": "syntax",
+  "version": "1.0.3",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark",
+    "zeus"
+  ],
+  "description": "Best for Night Coders",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaynali53/atom-zeus-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "# atom-zeus-syntax\n\nPorting of <a href=\"https://github.com/zaynali53/Zeus-Theme\" target=\"_blank\">Zeus Theme</a>.\n\n<br>\n\n## Preview\n\n![HTML-Preview](http://i.imgur.com/qOoDxFa.jpg)\n![JS-Preview](http://i.imgur.com/T50kkm8.jpg)\n![SCSS-Preview](http://i.imgur.com/cKSBs1M.jpg)\n![PHP-Preview](http://i.imgur.com/4VHVplM.jpg)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/zaynali53/atom-zeus-syntax/issues"
+  },
+  "homepage": "https://github.com/zaynali53/atom-zeus-syntax#readme",
+  "_id": "atom-zeus-syntax@1.0.3",
+  "_shasum": "991244f17d6d86e1e13c26fe64511801b782dd6b",
+  "_resolved": "file:../d-11629-59507-1glfrw/package.tgz",
+  "_from": "../d-11629-59507-1glfrw/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

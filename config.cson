@@ -1,0 +1,25 @@
+"*":
+  core:
+    audioBeep: false
+    destroyEmptyPanes: false
+    themes: [
+      "one-dark-ui"
+      "monokai-blackboard"
+    ]
+  editor:
+    fontSize: 10
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "a3fc6c7c-b265-633e-c9b8-185d1d75acfa"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  "one-dark-ui": {}
+  welcome:
+    showOnStartup: false

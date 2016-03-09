@@ -1,0 +1,187 @@
+{
+  "name": "find-selection",
+  "main": "./lib/find-selection",
+  "version": "0.16.0",
+  "description": "Find occurance of selected text without using find dialog",
+  "activationCommands": {
+    "atom-text-editor": [
+      "find-selection:find-next",
+      "find-selection:find-previous",
+      "find-selection:find-next-casesensitive",
+      "find-selection:find-previous-casesensitive"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-hahn/find-selection.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.170.0"
+  },
+  "dependencies": {
+    "sub-atom": "*"
+  },
+  "readme": "# find-selection package for Atom Editor\n\nFind the next or previous occurrence of the currently selected text with one keystroke. There is no need to bring up the find/replace dialog.\n\nThe default key to find the next occurrence is Ctrl-F3 (find-selection:find-next) and to find the previous occurrence is Ctrl-Shift-F3 (find-selection:find-previous).  \nFor case-sensitive searches, Key-binding to find the next occurrence is Ctrl-F4 (find-selection:find-next-casesensitive) and to find the previous occurrence is Ctrl-Shift-F4 (find-selection:find-previous-casesensitive).\n\nIf there is no next occurrence of the selected text then nothing will happen.\n\nIf nothing is selected then the last selection used, if any, is used again.\n\nThese search functions work whether the find/replace dialog is open or not. The find-dialog is not affected.\n\nThe functions are also available in the packages menu and in the editor context menu.\n\n------\n\nTo-Do:\n- Add tests.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/mark-hahn/find-selection/issues"
+  },
+  "homepage": "https://github.com/mark-hahn/find-selection#readme",
+  "_id": "find-selection@0.16.0",
+  "_shasum": "0db2a8a75fb8b2800626584f6cd452e8ccc56e0f",
+  "_resolved": "file:../d-116119-2390-7uuwsm/package.tgz",
+  "_from": "../d-116119-2390-7uuwsm/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "jquery",
+        "version": "2.2.0",
+        "path": "node_modules/sub-atom/node_modules/jquery/dist/jquery.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/find-selection.coffee",
+        "node_modules/sub-atom/lib/sub-atom.coffee"
+      ],
+      ".json": [
+        "node_modules/sub-atom/node_modules/jquery/bower.json",
+        "node_modules/sub-atom/node_modules/jquery/package.json",
+        "node_modules/sub-atom/package.json",
+        "package.json"
+      ],
+      ".js": [
+        "node_modules/sub-atom/node_modules/jquery/dist/jquery.js",
+        "node_modules/sub-atom/node_modules/jquery/dist/jquery.min.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/jsonp.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/load.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/parseJSON.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/parseXML.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/script.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/var/location.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/var/nonce.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/var/rquery.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax/xhr.js",
+        "node_modules/sub-atom/node_modules/jquery/src/ajax.js",
+        "node_modules/sub-atom/node_modules/jquery/src/attributes/attr.js",
+        "node_modules/sub-atom/node_modules/jquery/src/attributes/classes.js",
+        "node_modules/sub-atom/node_modules/jquery/src/attributes/prop.js",
+        "node_modules/sub-atom/node_modules/jquery/src/attributes/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/attributes/val.js",
+        "node_modules/sub-atom/node_modules/jquery/src/attributes.js",
+        "node_modules/sub-atom/node_modules/jquery/src/callbacks.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core/access.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core/init.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core/parseHTML.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core/ready.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core/var/rsingleTag.js",
+        "node_modules/sub-atom/node_modules/jquery/src/core.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/addGetHookIf.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/adjustCSS.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/curCSS.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/defaultDisplay.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/hiddenVisibleSelectors.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/showHide.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/var/cssExpand.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/var/getStyles.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/var/isHidden.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/var/rmargin.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/var/rnumnonpx.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css/var/swap.js",
+        "node_modules/sub-atom/node_modules/jquery/src/css.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data/Data.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data/accepts.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data/var/acceptData.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data/var/dataPriv.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data/var/dataUser.js",
+        "node_modules/sub-atom/node_modules/jquery/src/data.js",
+        "node_modules/sub-atom/node_modules/jquery/src/deferred.js",
+        "node_modules/sub-atom/node_modules/jquery/src/deprecated.js",
+        "node_modules/sub-atom/node_modules/jquery/src/dimensions.js",
+        "node_modules/sub-atom/node_modules/jquery/src/effects/Tween.js",
+        "node_modules/sub-atom/node_modules/jquery/src/effects/animatedSelector.js",
+        "node_modules/sub-atom/node_modules/jquery/src/effects/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/effects.js",
+        "node_modules/sub-atom/node_modules/jquery/src/event/ajax.js",
+        "node_modules/sub-atom/node_modules/jquery/src/event/alias.js",
+        "node_modules/sub-atom/node_modules/jquery/src/event/focusin.js",
+        "node_modules/sub-atom/node_modules/jquery/src/event/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/event/trigger.js",
+        "node_modules/sub-atom/node_modules/jquery/src/event.js",
+        "node_modules/sub-atom/node_modules/jquery/src/exports/amd.js",
+        "node_modules/sub-atom/node_modules/jquery/src/exports/global.js",
+        "node_modules/sub-atom/node_modules/jquery/src/intro.js",
+        "node_modules/sub-atom/node_modules/jquery/src/jquery.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/_evalUrl.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/buildFragment.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/createSafeFragment.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/getAll.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/setGlobalEval.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/var/nodeNames.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/var/rcheckableType.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/var/rleadingWhitespace.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/var/rscriptType.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/var/rtagName.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation/wrapMap.js",
+        "node_modules/sub-atom/node_modules/jquery/src/manipulation.js",
+        "node_modules/sub-atom/node_modules/jquery/src/offset.js",
+        "node_modules/sub-atom/node_modules/jquery/src/outro.js",
+        "node_modules/sub-atom/node_modules/jquery/src/queue/delay.js",
+        "node_modules/sub-atom/node_modules/jquery/src/queue.js",
+        "node_modules/sub-atom/node_modules/jquery/src/selector-native.js",
+        "node_modules/sub-atom/node_modules/jquery/src/selector-sizzle.js",
+        "node_modules/sub-atom/node_modules/jquery/src/selector.js",
+        "node_modules/sub-atom/node_modules/jquery/src/serialize.js",
+        "node_modules/sub-atom/node_modules/jquery/src/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/traversing/findFilter.js",
+        "node_modules/sub-atom/node_modules/jquery/src/traversing/var/dir.js",
+        "node_modules/sub-atom/node_modules/jquery/src/traversing/var/rneedsContext.js",
+        "node_modules/sub-atom/node_modules/jquery/src/traversing/var/siblings.js",
+        "node_modules/sub-atom/node_modules/jquery/src/traversing.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/arr.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/class2type.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/concat.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/deletedIds.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/document.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/documentElement.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/hasOwn.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/indexOf.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/pnum.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/push.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/rcssNum.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/rnotwhite.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/slice.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/support.js",
+        "node_modules/sub-atom/node_modules/jquery/src/var/toString.js",
+        "node_modules/sub-atom/node_modules/jquery/src/wrap.js"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "sub-atom": "*"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/sub-atom/lib",
+          "node_modules/sub-atom"
+        ],
+        "dependencies": {
+          "jquery": "^2"
+        }
+      }
+    ]
+  }
+}

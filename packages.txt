@@ -10,6 +10,7 @@ highlight-selected@0.11.2
 javascript-snippets@1.2.1
 jumpy@3.0.3
 minimap@4.20.0
+minimap-cursorline@0.1.0
 minimap-find-and-replace@4.5.0
 minimap-git-diff@4.2.0
 minimap-highlight-selected@4.4.0

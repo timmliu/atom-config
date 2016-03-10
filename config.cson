@@ -16,6 +16,8 @@
     userId: "a3fc6c7c-b265-633e-c9b8-185d1d75acfa"
   minimap:
     plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
       "find-and-replace": true
       "find-and-replaceDecorationsZIndex": 0
       "git-diff": true

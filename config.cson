@@ -33,3 +33,5 @@
   "one-dark-ui": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

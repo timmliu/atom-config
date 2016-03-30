@@ -3,14 +3,14 @@
     audioBeep: false
     destroyEmptyPanes: false
     themes: [
-      "one-dark-ui"
-      "monokai-blackboard"
+      "nucleus-dark-ui"
+      "smyck"
     ]
   editor:
-    fontSize: 10
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
-    softWrap: true
+    tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "a3fc6c7c-b265-633e-c9b8-185d1d75acfa"
@@ -31,6 +31,7 @@
       selection: true
       selectionDecorationsZIndex: 0
   "one-dark-ui": {}
+  "tree-view": {}
   welcome:
     showOnStartup: false
   whitespace:

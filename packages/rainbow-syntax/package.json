@@ -1,9 +1,9 @@
 {
   "name": "rainbow-syntax",
   "theme": "syntax",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "private": false,
-  "description": "A rainbow syntax theme for Atom",
+  "description": "Are you unhappy with the ES6 color syntax on most themes? this syntax theme is compatible with JS (ES6/JSX/ES5), Ruby, Handlebars, CSS",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/betovelandia/rainbow-syntax.git"
@@ -18,10 +18,10 @@
     "url": "https://github.com/betovelandia/rainbow-syntax/issues"
   },
   "homepage": "https://github.com/betovelandia/rainbow-syntax#readme",
-  "_id": "rainbow-syntax@2.1.0",
-  "_shasum": "558ae116fa08f07abcb5d0004390db53cf413e84",
-  "_resolved": "file:../d-11629-59204-q26498/package.tgz",
-  "_from": "../d-11629-59204-q26498/package.tgz",
+  "_id": "rainbow-syntax@2.2.0",
+  "_shasum": "2d4b68b217ab4c2ce57abc2a64c91e7650649e64",
+  "_resolved": "file:../d-116214-1295-1867oh9/package.tgz",
+  "_from": "../d-116214-1295-1867oh9/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],

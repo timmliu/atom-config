@@ -3,8 +3,8 @@
     audioBeep: false
     destroyEmptyPanes: false
     themes: [
-      "nucleus-dark-ui"
-      "smyck"
+      "one-dark-ui"
+      "spring-dark-syntax"
     ]
   editor:
     fontSize: 12
